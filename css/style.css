@@ -87,7 +87,8 @@ a:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-image: url(../images/hero-bg.jpg);
+  /* background-image: url(../images/hero-bg.jpg); */
+  background-color: #644b50;
   background-size: cover;
   background-position: center;
 }
@@ -345,6 +346,7 @@ a:focus {
 .about_section .detail-box p {
   color: #999;
   margin-top: 25px;
+  text-align: justify;
 }
 
 .about_section .detail-box a {
@@ -536,6 +538,7 @@ a:focus {
 
 .lab_section .box .detail-box p {
   color: #999;
+  text-align: justify;
 }
 
 .lab_section .box .detail-box a {
@@ -790,3 +793,70 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+.team-orders {
+  font-family: Arial, sans-serif;
+}
+
+.team {
+  margin-bottom: 20px;
+}
+
+.team-name {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.order-table {
+  width: 100%;
+}
+
+.table-header {
+  background-color: #444;
+  color: #fff;
+  display: flex;
+}
+
+.header-item {
+  flex: 1;
+  padding: 10px;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-item {
+  flex: 1;
+  padding: 10px;
+}
+
+.team-standings {
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, sans-serif;
+}
+
+.team {
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.team-name {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.team-info {
+  padding: 10px;
+}
+
+.info-item {
+  margin-bottom: 5px;
+}
